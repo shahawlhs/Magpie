@@ -35,6 +35,25 @@ public class Magpie2
 		{
 			response = "Why so negative?";
 		}
+		else if (statement.indexOf("dog") >= 0
+				|| statement.indexOf("cat") >= 0)
+		{
+			response = "Tell me more about your pets.";
+		}
+		else if (String statement)
+		{
+			if (statement.indexOf("Mr.") >= 0){
+				response = "I hear he is a good teacher.";
+			}
+
+			else if (statement.indexOf("Mrs.") >= 0 || statement.indexOf("Ms.") >= 0){
+				response = "I hear she is a good teacher.";
+			}
+		}
+
+
+
+
 		else if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
